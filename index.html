@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website of Jamshaid, a web developer building modern and responsive web experiences." />
+  <title>Jamshaid | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="logo">Jamshaid<span>.</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Web Developer</p>
+          <h1>I build modern websites that are fast, clean, and user-focused.</h1>
+          <p class="lead">
+            I am Jamshaid, a passionate web developer focused on responsive design,
+            frontend development, and creating smooth digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-secondary" href="#contact">Hire Me</a>
+          </div>
+          <div class="stats">
+            <div><strong>1+</strong><span>Years Learning & Building</span></div>
+            <div><strong>10+</strong><span>Practice Projects</span></div>
+            <div><strong>100%</strong><span>Commitment to Growth</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="code-window">
+            <div class="dots"><span></span><span></span><span></span></div>
+            <pre><code>const developer = {
+  name: "Jamshaid",
+  role: "Web Developer",
+  stack: ["HTML", "CSS", "JavaScript", "React"],
+  focus: "Responsive websites & UI",
+  availableForWork: true
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container section-grid">
+        <div>
+          <p class="section-tag">About Me</p>
+          <h2>Creating web solutions with clarity and purpose.</h2>
+        </div>
+        <div>
+          <p>
+            I am a dedicated web developer who enjoys turning ideas into practical,
+            attractive, and responsive websites. I care about clean layouts,
+            readable code, and experiences that work well on mobile, tablet, and desktop.
+          </p>
+          <p>
+            My goal is to grow as a professional developer while helping clients and
+            businesses build a strong online presence.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <p class="section-tag">Skills</p>
+        <h2>Technologies I work with</h2>
+        <div class="cards three">
+          <article class="card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript, responsive layouts, UI design, React basics.</p>
+          </article>
+          <article class="card">
+            <h3>Tools</h3>
+            <p>Git, GitHub, VS Code, browser developer tools, deployment workflows.</p>
+          </article>
+          <article class="card">
+            <h3>Strengths</h3>
+            <p>Clean design, fast learning, adaptability, consistency, and problem solving.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-tag">Projects</p>
+        <h2>Selected work</h2>
+        <div class="cards three">
+          <article class="project-card">
+            <h3>Business Landing Page</h3>
+            <p>A professional landing page designed for speed, clarity, and conversions.</p>
+          </article>
+          <article class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A modern personal portfolio built to showcase projects, skills, and services.</p>
+          </article>
+          <article class="project-card">
+            <h3>Responsive Web App UI</h3>
+            <p>An interface concept focused on usability, mobile responsiveness, and clean design.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container contact-box">
+        <div>
+          <p class="section-tag">Contact</p>
+          <h2>Let’s build something great together.</h2>
+          <p>
+            Available for freelance work, collaborations, and portfolio projects.
+            Update the email and links below with your real contact details.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+          <a href="https://github.com/jamshaidal" target="_blank" rel="noreferrer">GitHub Profile</a>
+          <a href="#home">Back to top</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Jamshaid. All rights reserved.</p>
+      <p>Built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
