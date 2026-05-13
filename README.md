@@ -9,7 +9,7 @@ This repository supports my public professional profile. It is intended to prese
 ## Main Focus
 
 - Deepfake detection research
-- Federated learning
+- Transformer and CNN-based model exploration
 - Applied machine learning systems
 - Full-stack AI product development
 - Research communication
